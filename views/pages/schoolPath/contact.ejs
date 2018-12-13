@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <% include ../../partials/school/head %>
+            
+    </head>
+    
+    <body>
+        <% include ../../partials/school/nav %>
+
+
+            <!-- ^^^^^^^^^^^^^^^^^ Theme Inner Banner ^^^^^^^^^^^^^^^ -->
+            <div class="theme-inner-banner">
+                <div class="round-shape-one"></div>
+                <img src="images/shape/34.png" alt="" class="wave-one">
+                <img src="images/shape/34.png" alt="" class="wave-two">
+                <img src="images/svg/contact.svg" style="width: 35vw;" alt="" class="illustration">
+                <img src="images/shape/5.png" alt="" class="shape-one">
+                <img src="images/shape/29.png" alt="" class="shape-two">
+                <img src="images/shape/30.png" alt="" class="shape-three">
+                <img src="images/shape/31.png" alt="" class="shape-four">
+                <div class="container">
+                    <div class="inner-wrapper section-title">
+                        <h2 class="title">Feel free contact <br><span>LPSci!</span></h2>
+                        <ul>
+                            <li><a href="index.html">Home</a></li>
+                            <li>-</li>
+                            <li>Contact</li>
+                        </ul>
+                    </div> <!-- /.inner-wrapper -->
+                </div> <!-- /.container -->
+            </div> <!-- /.theme-inner-banner -->
+        </div> <!-- /.theme-top-section -->
+
+
+
+
+        <!--
+        =====================================================
+            Contact Page
+        =====================================================
+        -->
+        <div class="contact-page">
+            <img src="images/shape/41.png" alt="" class="shape-one">
+            <div class="container">
+                <h3 class="section-title">Get In Touch With Us</h3>
+                <div class="row">
+                    <div class="col-lg-12">
+                        <form class="contact-form form-validation" autocomplete="off">
+                            <div class="row">
+                                <div class="col-12"><input type="text" placeholder="Full Name" name="name"></div>
+                                <div class="col-md-6"><input type="email" placeholder="Email" name="email"></div>
+                                <div class="col-md-6"><input type="text" placeholder="Phone" name="phone"></div>
+                                <div class="col-12"><textarea placeholder="Your Message" name="message"></textarea></div>
+                            </div>
+                            <button>Send</button>
+                        </form> <!-- /.contact-form -->
+
+                        <!--Contact Form Validation Markup -->
+                        <!-- Contact alert -->
+                        <div class="alert-wrapper" id="alert-success">
+                            <div id="success">
+                                <button class="closeAlert"><i class="fa fa-times" aria-hidden="true"></i></button>
+                                <div class="wrapper">
+                                    <p>Your message was sent successfully.</p>
+                                </div>
+                            </div>
+                        </div> <!-- End of .alert_wrapper -->
+                        <div class="alert-wrapper" id="alert-error">
+                            <div id="error">
+                                <button class="closeAlert"><i class="fa fa-times" aria-hidden="true"></i></button>
+                                <div class="wrapper">
+                                    <p>Sorry!Something Went Wrong.</p>
+                                </div>
+                            </div>
+                        </div> <!-- End of .alert_wrapper -->
+                    </div> <!-- /.col- -->
+
+                    <!-- Google Maps
+                    <div class="col-lg-6 order-lg-first">
+                        <div class="google-map"><div class="map-canvas"></div></div>
+                    </div>
+                    -->
+                </div> <!-- /.row -->
+
+                <div class="row">
+                    <div class="col-lg-4 col-12">
+                        <div class="quick-find-block">
+                            <h5 class="block-title">Contact Details</h5>
+                            <ul>
+                                <li>
+                                    <strong>Email:</strong>
+                                    <p>lpshs1@gmail.com</p>
+                                </li>
+                                <li>
+                                    <strong>Office hours:</strong>
+                                    <p>Monday–Friday 7AM - 5PM</p>
+                                </li>
+                                <li>
+                                    <strong>Address:</strong>
+                                    <p>Carnival Park St., BF Resort Village, Talon Dos, Las Piñas City</p>
+                                </li>
+                            </ul>
+                        </div> <!-- /.quick-find-block -->
+                    </div>
+
+                    <div class="col-lg-8 col-12">
+                        <div class="row">
+                            <div class="col-md-6">
+                                <div class="additional-block">
+                                    <h5>General Inquiries</h5>
+                                    <p>We’re happy to answer your questions anything about our school.</p>
+                                    <a href="#" class="read-more"><i class="fa fa-arrow-right" aria-hidden="true"></i></a>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="additional-block">
+                                    <h5>Settle an appointment</h5>
+                                    <p>If you do wish to set an appointment, please do call LPCNSHS</p>
+                                    <a href="#" class="read-more"><i class="fa fa-arrow-right" aria-hidden="true"></i></a>
+                                </div>
+                            </div>
+                            <div class="col-12">
+                                <div class="social-icon">
+                                    <div class="additional-block">
+                                        <h4>Social Media links</h4>
+                                        <ul>
+                                        <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+                                        <li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+                                    </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div> <!-- /.container -->
+        </div> <!-- /.contact-page -->
+
+
+
+
+
+        <!--
+        =====================================================
+            Footer
+        =====================================================
+        -->
+        <% include ../../partials/school/footer %>
+</body>
+
+</html>

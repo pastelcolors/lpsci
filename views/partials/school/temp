@@ -1,0 +1,21 @@
+SEARCH BAR
+______________
+
+
+<div class="search-box" id="searchWrapper">
+        <div id="close-button" class="tran3s"></div>
+           <div class="container">
+               <form action="#">
+                   <div class="input-wrapper">
+                       <input type="text" placeholder="Enter Your keyword">
+                       <button><i class="flaticon-search"></i></button>
+                   </div>
+               </form>
+           </div>
+       </div> <!-- /.search-box -->
+
+
+SEARCH BUTTON
+_______________
+
+<li class="search-button"><button id="search"><i class="flaticon-search"></i></button></li>
