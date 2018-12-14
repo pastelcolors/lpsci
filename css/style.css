@@ -80,8 +80,8 @@
 }
 #loader {
   background: url(../images/1.gif);
-  width: 64px;
-  height: 64px;
+  width: 200px;
+  height: 200px;
   position: relative;
   top: 50%;
   margin: -32px auto 0 auto;
@@ -285,8 +285,8 @@ body .theme-button-two i {font-size: 20px; margin-left: 13px;}
 .theme-top-section,#theme-banner,#theme-banner .main-text-wrapper {position: relative;z-index: 5;}
 /* -------------------------- Logo --------------------------*/
  .logo {
-   max-width: 15vw;
-   max-height: 15vw;
+   width: 50vw;
+   max-width: 20%;
    background-color: transparent !important;
    content: url(../images/logo/logo.svg);
  }
@@ -1256,7 +1256,6 @@ body .theme-button-two i {font-size: 20px; margin-left: 13px;}
 }
 .footer-logo {
   width: 2vw !important;
-  height: 2vw !important;
   background-color: transparent !important;
 }
 .theme-footer .footer-main-widget .footer-logo ul li a:hover {color: #fff;}

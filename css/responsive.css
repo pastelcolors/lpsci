@@ -151,7 +151,7 @@
     line-height: 60px;
     display: block;
   }
-  #theme-banner .main-text-wrapper h1 {font-size: 48px;line-height: 65px;}
+  #theme-banner .main-text-wrapper h1 {font-size: 46px;line-height: 50px;}
   #theme-banner .main-text-wrapper,#theme-banner.theme-banner-two .main-text-wrapper {padding: 200px 0 40px;}
   #theme-banner .main-text-wrapper p,#theme-banner.theme-banner-two .main-text-wrapper p {font-size: 20px;line-height: 32px; padding: 35px 0 45px;}
   .theme-main-menu .right-widget .button-group a {padding: 0 10px; font-size: 16px;}
@@ -183,7 +183,7 @@
 
 
 @media (max-width: 575px) {
-  body .theme-button-two {padding: 0 15px;font-size: 16px;}
+  body .theme-button-two {padding: 12px; padding-top: 0px; padding-bottom: 0px; font-size: 16px;}
   .section-title .section-inner-button {width: 260px;}
   .theme-main-menu .right-widget .button-group,.theme-inner-banner .site-button {display: none;}
   #searchWrapper form button {width: 50px;font-size: 20px;}
