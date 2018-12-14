@@ -48,7 +48,6 @@ app.use((err, req, res, next) => {
 });
 
 // Initialize Server
-const port = process.env.PORT || 8000;
-app.listen(port, () => {
-  console.log(`Server is listening on port ${port}`);
+app.listen(80, () => {
+  console.log(`Server is listening on port 80`);
 });
