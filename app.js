@@ -48,6 +48,6 @@ app.use((err, req, res, next) => {
 });
 
 // Initialize Server
-app.listen(80, () => {
+app.listen(8000, () => {
   console.log(`Server is listening on port 80`);
 });
