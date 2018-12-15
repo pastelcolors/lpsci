@@ -30,7 +30,7 @@
 * Importing necessary  Styles.
 **/
 /*--------- Fonts ----------*/
-@import url('https://fonts.googleapis.com/css?family=Nunito:300,400,600,700,800|Dancing+Script:700');
+@import url('../fonts/montserrat/montserrat.css');
 /*----bootstrap css ----- */
 @import url('../vendor/bootstrap/css/bootstrap.min.css');
 /*------- menu ------*/
@@ -128,7 +128,7 @@
 ::-webkit-scrollbar-track { background: #f4f4f4;}
 ::-webkit-scrollbar-thumb { background: #10502a;border-radius: 10px; }
 body {
-  font-family: 'Nunito', sans-serif;
+  font-family: 'Montserrat', sans-serif;
   font-weight: normal;
   color:rgba(45,54,77,0.9);
   font-size: 18px;
@@ -274,7 +274,7 @@ body .theme-button-two i {font-size: 20px; margin-left: 13px;}
 .theme-top-section,#theme-banner,#theme-banner .main-text-wrapper {position: relative;z-index: 5;}
 /* -------------------------- Logo --------------------------*/
  .logo {
-   width: 50vw;
+   width: 250px;
    max-width: 20%;
    background-color: transparent !important;
    content: url(../images/logo/logo.svg);
@@ -522,6 +522,8 @@ body .theme-button-two i {font-size: 20px; margin-left: 13px;}
   z-index: 1;
   width: 31%;
 }
+
+
 /*------------ Banner Two ----------------*/
 #theme-banner.theme-banner-two .main-text-wrapper {padding-top: 410px;}
 #theme-banner.theme-banner-two .main-text-wrapper p {padding-bottom: 125px;}
