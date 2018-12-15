@@ -288,22 +288,7 @@ body .theme-button-two i {font-size: 20px; margin-left: 13px;}
   right: 0;
   z-index: 99;
 }
-.theme-main-menu .menu-style-one:before {
-  content:'';
-  width: 85px;
-  height: 100%;
-  position: absolute;
-  top:0;
-  right: 0;
-  z-index: -1;
-}
-.theme-main-menu .menu-style-one:after {
-  content:url(../images/shape/1.png);
-  z-index: -1;
-  position: absolute;
-  top:0;
-  right: 0;
-}
+
 .theme-main-menu .menu-wrapper .logo {
   float: left;
   padding: 5px 4%;
