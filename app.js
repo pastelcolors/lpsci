@@ -1,9 +1,9 @@
 // Dependencies
+require('dotenv').config();
 const compression = require('compression');
 const express = require('express');
 const path = require('path');
 const minifyHTML = require('express-minify-html');
-
 
 const app = express();
 
@@ -48,6 +48,8 @@ app.use((err, req, res, next) => {
 });
 
 // Initialize Server
-app.listen(3000, () => {
-  console.log(`Server is listening on port 80`);
+const port = process.env.PORT || 3000;
+console.log(port);
+app.listen(port, () => {
+  console.log(`Server is listening on port ${port}`);
 });
