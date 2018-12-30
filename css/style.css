@@ -448,8 +448,8 @@ body .theme-button-two i {font-size: 20px; margin-left: 13px;}
 .theme-banner-one .shape-two {
   position: absolute;
   left: 1%;
-  bottom:26%;
-  animation: rotated 20s ease-in-out alternate infinite;
+  bottom: 15%;
+  animation: jump 20s ease-in-out alternate infinite;
 }
 .theme-banner-one .shape-three {
   position: absolute;
@@ -643,8 +643,8 @@ body .theme-button-two i {font-size: 20px; margin-left: 13px;}
 }
 .about-us .shape-four {
   position: absolute;
-  left: 51%;
-  top:13%;
+  left: 80%;
+  top:90%;
   z-index: -1;
 }
 .about-us .shape-five {
@@ -755,14 +755,14 @@ body .theme-button-two i {font-size: 20px; margin-left: 13px;}
 .client-section {position: relative;padding-bottom: 185px;}
 .client-section .shape-one {
   position: absolute;
-  left: 0;
+  left: -10%;
   top:17%;
   z-index: -1;
 }
 .client-section .shape-two {
   position: absolute;
   left: 0;
-  top:-27%;
+  top:-20%;
   z-index: -1;
 }
 .client-section .text-wrapper {padding-top: 160px;}
@@ -1146,30 +1146,19 @@ body .theme-button-two i {font-size: 20px; margin-left: 13px;}
   left:0;
   z-index: -1;
 }
-.theme-footer .shape-two {
-  border-radius: 10px;
-  background: linear-gradient( -180deg, rgb(209,178,251) 0%, rgb(255,255,255) 100%);
-  opacity: 0.902;
-  box-shadow: 0px 16px 30px 0px rgba(181, 179, 185, 0.35);
-  position: absolute;
-  right: 9%;
-  top: 17%;
-  width: 27px;
-  height: 26px;
-  animation: jump 4s ease-in-out alternate infinite;
-}
 .theme-footer .shape-three {
   position: absolute;
-  bottom:28%;
-  right: 10%;
+  right: 25%;
+  top: 70%;
   z-index: -1;
-  animation: scale-right  4s ease-in-out alternate infinite;
+  animation:rotated 20s ease-in-out alternate infinite
 }
 .theme-footer .shape-four {
   position: absolute;
   top:6%;
   right: 27%;
   z-index: -1;
+  animation:rotated 20s ease-in-out alternate infinite
 }
 .footer-form-wrapper {
   border-radius: 10px;
@@ -1267,25 +1256,19 @@ body .theme-button-two i {font-size: 20px; margin-left: 13px;}
   left: 0;
   z-index: -1;
 }
-.agency-feature:after {
-  content: url(../images/shape/33.png);
-  position: absolute;
-  bottom: 98px;
-  right: 0;
-  z-index: -1;
-}
 .agency-feature .shape-one {
   position: absolute;
-  left: 20%;
-  top: 2%;
+  left: 75%;
+  top: 30%;
   z-index: -1;
-  animation: jump 4s ease-in-out alternate infinite;
+  animation: jump 10s ease-in-out alternate infinite;
 }
 .agency-feature .shape-two {
   position: absolute;
-  left: 38%;
-  top: 2%;
+  left: 73%;
+  top: 10%;
   z-index: -1;
+  animation: jump 20s ease-in-out alternate infinite;
 }
 .agency-feature .shape-three {
   position: absolute;
@@ -1383,27 +1366,10 @@ body .theme-button-two i {font-size: 20px; margin-left: 13px;}
   box-shadow: 0px 20px 40px 0px rgba(216, 216, 216, 0.35);
   z-index: 9;
 }
-.theme-inner-banner .round-shape-one {
-  border-radius: 10px;
-  box-shadow: 0px 16px 30px 0px rgba(181, 179, 185, 0.35);
-  position: absolute;
-  left: 4%;
-  top: 34%;
-  width: 27px;
-  height: 26px;
-  z-index: -1;
-  animation: scale-up 4s ease-in-out alternate infinite;
-}
 .theme-inner-banner .wave-one {
   position: absolute;
-  bottom: 24%;
+  bottom: 10%;
   left:3%;
-  z-index: 1;
-}
-.theme-inner-banner .wave-two {
-  position: absolute;
-  bottom: 9%;
-  left:38%;
   z-index: 1;
 }
 .theme-inner-banner .illustration {
@@ -1414,8 +1380,8 @@ body .theme-button-two i {font-size: 20px; margin-left: 13px;}
 }
 .theme-inner-banner .shape-one {
   position: absolute;
-  right: 1%;
-  bottom:8%;
+  right: -2%;
+  bottom: -3%;
   z-index: -1;
   animation: jump 20s ease-in-out alternate infinite;
 }
@@ -1424,18 +1390,27 @@ body .theme-button-two i {font-size: 20px; margin-left: 13px;}
   left: 19%;
   top:33%;
   z-index: -1;
+  animation:rotated 20s ease-in-out alternate infinite
 }
 .theme-inner-banner .shape-three {
   position: absolute;
   left: 40%;
   top:35%;
   z-index: -1;
+  animation:rotated 20s ease-in-out alternate infinite
 }
 .theme-inner-banner .shape-four {
   position: absolute;
-  right: 45%;
-  top:40%;
-  z-index: -1;
+  right: 40%;
+  top: 65%;
+  z-index: -2;
+  animation:rotated 20s ease-in-out alternate infinite
+}
+.theme-inner-banner .shape-five {
+  position: absolute;
+  right: 35%;
+  top: 25%;
+  z-index: -2;
 }
 .theme-inner-banner .inner-wrapper {
   position: relative;
@@ -1496,6 +1471,116 @@ body .theme-button-two i {font-size: 20px; margin-left: 13px;}
   bottom: 10px;
   right: 0;
   z-index: 9;
+}
+/*------------------- Under Construction ------------------*/
+.under-construction {
+  position: relative;
+  padding: 343px 0 0 0;
+  background: #fff;
+  box-shadow: 0px 20px 40px 0px rgba(216, 216, 216, 0.35);
+  z-index: 9;
+}
+.under-construction .round-shape-one {
+  border-radius: 10px;
+  box-shadow: 0px 16px 30px 0px rgba(181, 179, 185, 0.35);
+  position: absolute;
+  left: 4%;
+  top: 34%;
+  width: 27px;
+  height: 26px;
+  z-index: -1;
+  animation: scale-up 4s ease-in-out alternate infinite;
+}
+.under-construction .wave-one {
+  position: absolute;
+  bottom: 10%;
+  left:3%;
+  z-index: 1;
+}
+.under-construction .illustration {
+  position: absolute;
+  right: 7%;
+  bottom: 4%;
+  z-index: -1;
+}
+.under-construction .shape-one {
+  position: absolute;
+  right: 1%;
+  bottom: -3%;
+  z-index: -1;
+  animation: jump 20s ease-in-out alternate infinite;
+}
+.under-construction .shape-two {
+  position: absolute;
+  left: 19%;
+  top:33%;
+  z-index: -1;
+  animation:rotated 20s ease-in-out alternate infinite
+}
+.under-construction .shape-three {
+  position: absolute;
+  left: 40%;
+  top:35%;
+  z-index: -1;
+  animation:rotated 20s ease-in-out alternate infinite
+}
+.under-construction .shape-four {
+  position: absolute;
+  right: 40%;
+  top: 65%;
+  z-index: -1;
+  animation:rotated 20s ease-in-out alternate infinite
+}
+.under-construction .inner-wrapper {
+  position: relative;
+  padding-bottom: 85px;
+}
+.under-construction .inner-wrapper .title {
+  font-size: 60px;
+  font-weight: 700;
+  line-height: 70px;
+  padding-bottom: 188px;
+}
+.under-construction ul li {
+  display: inline-block;
+  font-size: 21px;
+  color: rgba(45,54,77,0.8);
+  position: relative;
+  margin-right: 5px;
+  z-index: 5;
+}
+.under-construction ul li a {color: rgba(45,54,77,0.8);}
+.under-construction ul li:first-child {padding-left: 35px;}
+.under-construction ul li:first-child:before {
+  content: '';
+  border-radius: 50%;
+  background: linear-gradient( 122deg, rgb(234,245,255) 0%, rgb(243,251,251) 100%);
+  box-shadow: 0px 13px 35px 0px rgba(171, 172, 172, 0.35);
+  position: absolute;
+  left:0;
+  top:-37px;
+  width: 103px;
+  height: 103px;
+  z-index: -1;
+}
+.under-construction .site-button {
+  width: 250px;
+  text-align: center;
+  color: #fff;
+  padding-top: 32px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
+  position: absolute;
+  bottom: 0;
+  right: 40px;
+  z-index: 1;
+}
+.under-construction .site-button i {
+  display: block;
+  font-size: 50px;
+  font-weight: normal;
+  margin: -14px 0 -10px;
 }
 /*---------------------- Our Team --------------------*/
 .our-team {margin-bottom: 100px;}

@@ -10,25 +10,24 @@ const app = express();
 app.set('view engine', 'ejs');
 app.use(compression());
 app.use(minifyHTML({
-  override:      true,
+  override: true,
   exception_url: false,
   htmlMinifier: {
-    removeComments:            true,
-    collapseWhitespace:        true,
+    removeComments: true,
+    collapseWhitespace: true,
     collapseBooleanAttributes: true,
-    removeAttributeQuotes:     true,
-    removeEmptyAttributes:     true,
-    minifyJS:                  true
-  }
+    removeAttributeQuotes: true,
+    removeEmptyAttributes: true,
+    minifyJS: true,
+  },
 }));
 
 app.use(express.static(path.join(__dirname, 'views')));
-app.use('/css', express.static('css'));
-app.use('/js', express.static('js'));
-app.use('/images', express.static('images'));
-app.use('/fonts', express.static('fonts'));
-app.use('/config', express.static('config'));
-app.use('/vendor', express.static('vendor'));
+app.use('/css', express.static(path.join(__dirname, 'css')));
+app.use('/js', express.static(path.join(__dirname, 'js')));
+app.use('/images', express.static(path.join(__dirname, 'images')));
+app.use('/fonts', express.static(path.join(__dirname, 'fonts')));
+app.use('/vendor', express.static(path.join(__dirname, 'vendor')));
 
 const lpsci = require('./routes/school');
 
@@ -49,7 +48,6 @@ app.use((err, req, res, next) => {
 
 // Initialize Server
 const port = process.env.PORT || 3000;
-console.log(port);
 app.listen(port, () => {
   console.log(`Server is listening on port ${port}`);
 });
