@@ -213,18 +213,7 @@ body .theme-button {
   z-index: 9;
   letter-spacing: 1px;
 }
-body .theme-button-two {
-  font-size: 18px;
-  font-weight: 600;
-  text-transform: uppercase;
-  text-align: center;
-  color: #fff;
-  line-height: 116px;
-  padding: 0 60px;
-  position: relative;
-  z-index: 9;
-  letter-spacing: 1.5px;
-}
+
 body .theme-button-two:before {border-radius: 0;}
 body .theme-button-two i {font-size: 20px; margin-left: 13px;}
 /*---------------- Theme Pagination --------------*/
@@ -276,6 +265,7 @@ body .theme-button-two i {font-size: 20px; margin-left: 13px;}
  .logo {
    width: 250px;
    max-width: 20%;
+   min-width: 100px;
    background-color: transparent !important;
    content: url(../images/logo/logo.svg);
  }

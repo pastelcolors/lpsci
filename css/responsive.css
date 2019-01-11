@@ -1,7 +1,143 @@
+@media (min-width: 100px) and (max-width: 425px) {
+  #theme-banner .main-text-wrapper h1 {
+    font-size: 30px;
+    line-height: 30px;
+    font-weight: 700;
+    text-align: center;
+  }
+  #theme-banner .main-text-wrapper,#theme-banner.theme-banner-two .main-text-wrapper {
+    padding: 150px 0 40px;
+  }
+  #theme-banner .main-text-wrapper p,#theme-banner.theme-banner-two .main-text-wrapper p {
+    font-size: 17px;
+    line-height: 20px;
+    padding: 35px 0 45px;
+    text-align: center;
+  }
+  .section-title h2 {
+    font-size: 30px;
+    line-height: 30px;
+    text-align: center;
+  }
+  .about-us p {
+    text-align: justify;
+  }
+  .single-feature p {
+    text-align: justify;
+  }
+  .single-feature h4 {
+    text-align: left;
+  }
+  .section-title p {
+    text-align: justify;
+  }
+  .inner-wrapper h2 {
+    text-align: center;
+  }
+  .rip {
+    display: none !important;
+  }
+  .uconst {
+    text-align: center !important;
+    font-size: 30px !important;
+    line-height: 30px !important;
+  }
+  .error-page {
+    padding-left: 5px;
+    padding-right: 5px;
+  }
+  .about-us .theme-button-two {
+    position: static;
+    margin-top: 40px;
+    padding-left: 40px;
+    padding-right: 40px;
+  }
+  body .theme-button-two {
+    font-size: 18px;
+    font-weight: 600;
+    text-transform: uppercase;
+    text-align: center;
+    color: #fff;
+    line-height: 56px;
+    padding: 0 60px;
+    position: relative;
+    z-index: 9;
+    letter-spacing: 1.5px;
+  }
+  .carousel-inner {
+    text-align: justify;
+  }
+}
+@media (min-width: 426px) and (max-width: 768px) {
+  #theme-banner .main-text-wrapper h1 {font-size: 46px;line-height: 50px; font-weight: 700;}
+  #theme-banner .main-text-wrapper,#theme-banner.theme-banner-two .main-text-wrapper {padding: 200px 0 40px;}
+  #theme-banner .main-text-wrapper p,#theme-banner.theme-banner-two .main-text-wrapper p {font-size: 20px;line-height: 32px; padding: 35px 0 45px;}
+  .section-title h2 {font-size: 42px;line-height: 55px;}
+  .about-us .theme-button-two {position: static;margin-top: 40px;}
+  body .theme-button-two {
+    font-size: 18px;
+    font-weight: 600;
+    text-transform: uppercase;
+    text-align: center;
+    color: #fff;
+    line-height: 116px;
+    padding: 0 60px;
+    position: relative;
+    z-index: 9;
+    letter-spacing: 1.5px;
+  }
+}
+@media (min-width: 769px) and (max-width: 1024px) {
+  #theme-banner .main-text-wrapper h1 {font-size: 46px;line-height: 50px; font-weight: 700;}
+  #theme-banner .main-text-wrapper,#theme-banner.theme-banner-two .main-text-wrapper {padding: 200px 0 40px;}
+  #theme-banner .main-text-wrapper p,#theme-banner.theme-banner-two .main-text-wrapper p {font-size: 20px;line-height: 32px; padding: 35px 0 45px;}
+  .section-title h2 {font-size: 42px;line-height: 55px;}
+  .about-us .theme-button-two {position: static;margin-top: 40px;}
+  body .theme-button-two {
+    font-size: 18px;
+    font-weight: 600;
+    text-transform: uppercase;
+    text-align: center;
+    color: #fff;
+    line-height: 116px;
+    padding: 0 60px;
+    position: relative;
+    z-index: 9;
+    letter-spacing: 1.5px;
+  }
+}
+@media (min-width: 1025px) {
+  #theme-banner .main-text-wrapper h1 {font-size: 46px;line-height: 50px; font-weight: 700;}
+  #theme-banner .main-text-wrapper,#theme-banner.theme-banner-two .main-text-wrapper {padding: 300px 0 60px;}
+  #theme-banner .main-text-wrapper p,#theme-banner.theme-banner-two .main-text-wrapper p {font-size: 20px;line-height: 32px; padding: 35px 0 45px;}
+  .section-title h2 {font-size: 42px;line-height: 55px;}
+  .about-us .theme-button-two {position: static;margin-top: 40px;}
+  body .theme-button-two {
+    font-size: 18px;
+    font-weight: 600;
+    text-transform: uppercase;
+    text-align: center;
+    color: #fff;
+    line-height: 116px;
+    padding: 0 60px;
+    position: relative;
+    z-index: 9;
+    letter-spacing: 1.5px;
+  }
+
+}
 @media (min-width: 992px) {
   .container {
     padding-left: 0 !important;
     padding-right: 0 !important;
+  }
+  .logo {
+    width: 250px !important;
+    max-width: 15% !important;
+    min-width: 100px !important;
+    background-color: transparent !important;
+    content: url(../images/logo/logo.svg);
+    padding-top: 50px !important;
   }
 }
 @media (max-width: 1550px) { 
@@ -65,10 +201,10 @@
   .our-case-study-feature .inner-wrapper:after,.blog-grid-style.home-layout:before,.theme-inner-banner .illustration,
   .theme-banner-one .main-text-wrapper h1 br,.theme-banner-one .shape-one,.theme-banner-two .img-shape-one,
   .about-us.style-two .single-block .block-shape {display: none;}
-  .about-us .theme-button-two {position: static;margin-top: 40px;}
+
   .about-us {padding-top: 90px;margin-bottom: 120px;}
   .section-title p {padding-right: 0;}
-  .section-title h2 {font-size: 42px;line-height: 55px;}
+
   .our-services .bottom-banner {text-align: center;}
   .our-services .bottom-banner {padding: 60px 25px}
   .our-services .bottom-banner .theme-button-two {position: relative;margin-top: 25px;transform:none;}
@@ -144,9 +280,7 @@
     line-height: 60px;
     display: block;
   }
-  #theme-banner .main-text-wrapper h1 {font-size: 46px;line-height: 50px; font-weight: 700;}
-  #theme-banner .main-text-wrapper,#theme-banner.theme-banner-two .main-text-wrapper {padding: 200px 0 40px;}
-  #theme-banner .main-text-wrapper p,#theme-banner.theme-banner-two .main-text-wrapper p {font-size: 20px;line-height: 32px; padding: 35px 0 45px;}
+
   .theme-main-menu .right-widget .button-group a {padding: 0 10px; font-size: 16px;}
   .theme-main-menu .right-widget .language-switcher button {font-size: 16px;}
   .theme-banner-two .video-button {margin: 15px 0 0 0;}
