@@ -76,7 +76,12 @@
   margin: -32px auto 0 auto;
 }
 /*** 
+====================================================================
+Responsive
+====================================================================
+***/
 
+/***
 ====================================================================
   Click To Top
 ====================================================================
@@ -495,7 +500,8 @@ body .theme-button-two i {font-size: 20px; margin-left: 13px;}
   right: 3%;
   bottom: 5%;
   z-index: 1;
-  width: 31%;
+  width: 26%;
+  padding-top: 50px;
 }
 
 
@@ -619,7 +625,7 @@ body .theme-button-two i {font-size: 20px; margin-left: 13px;}
 }
 .about-us .shape-two {
   position: absolute;
-  bottom: 10px;
+  bottom: 0px;
   left:0;
   z-index: 1;
   width: 41%;

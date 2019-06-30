@@ -1,4 +1,13 @@
 @media (min-width: 100px) and (max-width: 425px) {
+  .client-section .shape-one {
+    display: none;
+  }
+  .under-construction .illustration {
+    display: none !important;
+  }
+  .shape-two, .shape-four {
+    display: none !important;
+  }
   #theme-banner .main-text-wrapper h1 {
     font-size: 30px;
     line-height: 30px;
@@ -71,9 +80,12 @@
 @media (min-width: 426px) and (max-width: 768px) {
   #theme-banner .main-text-wrapper h1 {font-size: 46px;line-height: 50px; font-weight: 700;}
   #theme-banner .main-text-wrapper,#theme-banner.theme-banner-two .main-text-wrapper {padding: 200px 0 40px;}
-  #theme-banner .main-text-wrapper p,#theme-banner.theme-banner-two .main-text-wrapper p {font-size: 20px;line-height: 32px; padding: 35px 0 45px;}
+  #theme-banner .main-text-wrapper p,#theme-banner.theme-banner-two .main-text-wrapper p {font-size: 20px;line-height: 32px; padding: 35px 0 45px; margin-right: 30%;}
   .section-title h2 {font-size: 42px;line-height: 55px;}
   .about-us .theme-button-two {position: static;margin-top: 40px;}
+  .client-section .shape-one {
+    display: none;
+  }
   body .theme-button-two {
     font-size: 18px;
     font-weight: 600;
@@ -85,6 +97,9 @@
     position: relative;
     z-index: 9;
     letter-spacing: 1.5px;
+  }
+  .shape-two, .shape-four {
+    display: none !important;
   }
 }
 @media (min-width: 769px) and (max-width: 1024px) {
@@ -107,7 +122,7 @@
   }
 }
 @media (min-width: 1025px) {
-  #theme-banner .main-text-wrapper h1 {font-size: 46px;line-height: 50px; font-weight: 700;}
+  #theme-banner .main-text-wrapper h1 {font-size: 46px;line-height: 50px; font-weight: 700; margin-right: 25%;}
   #theme-banner .main-text-wrapper,#theme-banner.theme-banner-two .main-text-wrapper {padding: 300px 0 60px;}
   #theme-banner .main-text-wrapper p,#theme-banner.theme-banner-two .main-text-wrapper p {font-size: 20px;line-height: 32px; padding: 35px 0 45px;}
   .section-title h2 {font-size: 42px;line-height: 55px;}
@@ -130,6 +145,7 @@
   .container {
     padding-left: 0 !important;
     padding-right: 0 !important;
+    margin-left: 10%;
   }
   .logo {
     width: 250px !important;
@@ -152,6 +168,7 @@
   #mega-menu-holder>ul> li {margin: 0 8px;}
   .theme-main-menu .right-widget {padding-right: 2%;}
   .client-section .right-content .carousel-indicators {top:-20%;}
+  .container {margin-right: 30%;}
 }
 @media (min-width: 992px) and (max-width: 1199px) {
   #mega-menu-holder>ul> li {margin: 0 5px;}
